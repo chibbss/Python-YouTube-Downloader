@@ -30,8 +30,6 @@ if not os.path.exists(download_loc):
 # ask the user to enter url of youTube video
 video_url = input('Enter url: ')
 
-# ...
-
 # Create an instance of youtube video
 try:
     video_instance = pytube.YouTube(video_url)
